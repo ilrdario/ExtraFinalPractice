@@ -1,13 +1,14 @@
-remote_theme: just-the-docs/just-the-docs
+remote_theme: "mmistakes/minimal-mistakes@4.28.0"
+minimal_mistakes_skin: "neon"   # options: default, air, aqua, contrast, dark, dirt, neon, mint, plum, sunrise
 
 title: APSC 160 — Final Exam Practice
-description: Self-study practice problems for the final exam
+description: Self-study practice problems
 
-color_scheme: dark   # matches your GitHub dark theme taste
-
-# Optional but nice
-search_enabled: true
-heading_anchors: true
+markdown: kramdown
+highlighter: rouge
 
 plugins:
-  - jekyll-remote-theme
+  - jekyll-feed
+  - jekyll-include-cache
+
+search: true

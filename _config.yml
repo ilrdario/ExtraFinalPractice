@@ -1,0 +1,13 @@
+remote_theme: just-the-docs/just-the-docs
+
+title: APSC 160 — Final Exam Practice
+description: Self-study practice problems for the final exam
+
+color_scheme: dark   # matches your GitHub dark theme taste
+
+# Optional but nice
+search_enabled: true
+heading_anchors: true
+
+plugins:
+  - jekyll-remote-theme

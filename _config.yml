@@ -1,14 +1,13 @@
-remote_theme: "mmistakes/minimal-mistakes@4.28.0"
-minimal_mistakes_skin: "neon"   # options: default, air, aqua, contrast, dark, dirt, neon, mint, plum, sunrise
+remote_theme: jeffreytse/jekyll-theme-yat
 
 title: APSC 160 — Final Exam Practice
+author: Isaac
 description: Self-study practice problems
 
-markdown: kramdown
-highlighter: rouge
+yat:
+  skin: dark          # or "light"
+  highlight_theme: monokai   # great for code blocks
 
 plugins:
+  - jekyll-remote-theme
   - jekyll-feed
-  - jekyll-include-cache
-
-search: true
